@@ -1,0 +1,254 @@
+
+.s{text-decoration: none;
+color: black;}
+.menu{position: relative;
+text-decoration: none;}
+.submenu{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.menu:hover .submenu{
+    top: 100%;
+    opacity: 1;
+    pointer-events: all;
+   transition: ease;
+}
+.submenu{background-color: rgba(180, 180, 180, 0.247);
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+   border-radius: 3px;
+   padding: 5px 5px 5px 5px;
+   left: -10px;
+}
+ul{text-decoration: none;}
+
+.ft{
+    position: absolute;
+   
+  width: 25%;
+    top: 50%;
+    left: 0;
+    background-color: transparent;
+}
+    
+.par{
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    justify-content: space-between;
+}
+.jeff{height: 150px;
+}
+.elon{height: 150px;
+}
+  
+
+.h1{font-size: 30px;
+    font-weight: 600;
+    line-height: inherit;
+    font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+    color: var(--podium-cds-color-black);
+   
+}
+.barra{
+    padding: 20px 30px 20px 30px;
+    
+text-decoration: none;
+
+color: white;
+
+font-family: "Teko", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-size: 20px;
+display: inline-block;
+}
+header{
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    margin: 2em 20em;
+    border-radius: 10px;
+}
+header .LOGO{
+    text-transform: uppercase;
+}
+header ul{
+    display: inline;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: center;
+}
+header ul li{
+    display: inline;
+}
+.submenu{display: grid;
+padding-right: 20px 20px 20px 20px;
+
+}
+
+.LOGO{
+    padding: 20px 40px 20px 40px;
+    
+    text-decoration: none;
+   
+    color: white;
+   
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 50px;
+    display: inline-block;
+}
+.barra:hover{text-decoration: underline;}
+.header{margin: 0;
+    background-color: rgb(23, 30, 59);
+padding-top: 10px;
+padding-bottom: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+
+.q{
+    font-family:  Helvetica, sans-serif;
+}
+@media(max-width:600px){
+    .cont{background-color: rgb(23, 30, 59);
+    flex-direction: column;}
+    .barra{margin: 10px 0;}
+    .menu{flex-direction: column;}
+}
+.bloque{
+    
+
+border-radius: 10px;
+
+padding-bottom: 100px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+margin-top: 80px;
+}
+.segundo{
+    background-color: rgba(255, 255, 255, 0.301)
+    ;
+   padding: 5px 5px 100px 5px;
+   border-radius: 10px;
+}
+
+.def{
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+    border: 0;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+   background-color: rgb(42, 55, 112);
+}
+.def:hover{
+   
+    cursor: pointer;
+}
+
+.def{
+    box-shadow: 0 0 5px rgb(42, 55, 112), 0 0 25px rgb(42,55,112);
+}
+.def:hover{
+    box-shadow: 0 0 5px rgb(42,55,112),
+    0 0 25px rgb(42,55,112),0 0 50px rgb(42,55,112),0 0 100px rgb(42,55,112), 0 0 200px rgb(42,55,112);
+}
+.tdo{
+    background-color: rgb(23, 30, 59);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+.contenedor{
+   position: absolute;
+   top: 300px;
+   left: 20px;
+    display: flex;
+    font-size: 35px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.ti p {
+    margin: 0;
+    padding-left: 10px;
+}
+p{
+    color: black;
+    letter-spacing: 2px;
+}
+.ti{
+    list-style: none;
+    animation: movimiento 10s infinite;
+}
+.ti .t{
+    background-image: linear-gradient(90deg,#ed0de2,#ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 5px;
+    letter-spacing: 1px;
+}
+@keyframes movimiento{
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+    100%{margin-top: 0;}
+}
+
+body{
+    background-color: rgb(23, 30, 59);
+}
+.frasecilla{
+    color: white;
+    font-weight: 600;
+}
+.folio{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 800px
+}
+.front{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 250px;
+    top: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(42,55,112),
+    0 0 25px rgb(42,55,112),0 0 50px rgb(42,55,112),0 0 100px rgb(42,55,112), 0 0 200px rgb(42,55,112);
+}

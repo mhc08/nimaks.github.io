@@ -1,0 +1,45 @@
+
+    
+
+.fto{width: 150px;
+    height: 150px;
+    left: 25%;
+    top: 25%;
+position: relative;}
+body{display: grid;
+justify-content: center;
+place-items: center;
+background: black;
+height: 100vh;
+margin: 0;
+}
+.container{
+    width: 300px;
+    height: 300px;
+}
+.circular-text{color: white;
+position: absolute;
+font-family:Helvetica, sans-serif;
+font-size: 25px;
+animation: spin 20s linear infinite;
+}
+@keyframes spin{100%{
+    transform: rotate(360deg);
+}}
+.log{text-decoration: underline;
+    color: white;
+position: absolute;
+font-family:Helvetica, sans-serif;
+font-size: 15px;
+bottom: 25px;
+margin-right: 100px;
+}
+.reg{
+    text-decoration: underline;
+    color: white;
+position: absolute;
+font-family:Helvetica, sans-serif;
+font-size: 15px;
+bottom: 25px;
+
+}

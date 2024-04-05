@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(23, 30, 59);
+    
+}
+.q{
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.j{
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px; 
+   margin-right:30px ;
+}
+.carro{
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+.proye1{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 400px;
+    left: 125px;
+}
+.proye2{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}.proye3{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}.proye4{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 1200px;
+    left: 125px;
+}.proye5{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+}.proye6{
+    background-color:rgba(255, 255, 255, 0.644);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+   
+}
+/*Barra*/
+.menu{position: relative;
+    text-decoration: none;}
+    .submenu{
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+    
+    .menu:hover .submenu{
+        top: 100%;
+        opacity: 1;
+        pointer-events: all;
+       transition: ease;
+    }
+    .submenu{background-color: rgba(180, 180, 180, 0.247);
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 20px;
+        color: black;
+       border-radius: 3px;
+       padding: 5px 5px 5px 5px;
+       left: -10px;
+    }
+    ul{text-decoration: none;}
+    
+    .ft{
+        position: absolute;
+       
+      width: 25%;
+        top: 50%;
+        left: 0;
+        background-color: transparent;
+    }
+        
+    .par{
+        font-family: Helvetica, sans-serif;
+        font-weight: 300;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        justify-content: space-between;
+    }
+    .jeff{height: 150px;
+    }
+    .elon{height: 150px;
+    }
+      
+    
+    .h1{font-size: 30px;
+        font-weight: 600;
+        line-height: inherit;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif;
+        color: var(--podium-cds-color-black);
+       
+    }
+    .barra{
+        padding: 20px 30px 20px 30px;
+        
+    text-decoration: none;
+    
+    color: white;
+    
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    }
+    header{
+        display: block;
+        text-align: center;
+        padding: 0.5em;
+        margin: 2em 20em;
+        border-radius: 10px;
+    }
+    header .LOGO{
+        text-transform: uppercase;
+    }
+    header ul{
+        display: inline;
+        list-style-type: none;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+    header ul li{
+        display: inline;
+    }
+    .submenu{display: grid;
+    padding-right: 20px 20px 20px 20px;
+    
+    }
+    
+    .LOGO{
+        padding: 20px 40px 20px 40px;
+        
+        text-decoration: none;
+       
+        color: white;
+       
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 50px;
+        display: inline-block;
+    }
+    .barra:hover{text-decoration: underline;}
+    .header{margin: 0;
+        background-color: rgb(23, 30, 59);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    
+    .q{
+        font-family:  Helvetica, sans-serif;
+    }
+    @media(max-width:600px){
+        .cont{background-color: rgb(23, 30, 59);
+        flex-direction: column;}
+        .barra{margin: 10px 0;}
+        .menu{flex-direction: column;}
+    }
+    .s{text-decoration: none;
+        color: black;}
